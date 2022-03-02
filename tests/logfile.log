@@ -1,0 +1,10 @@
+2022-03-01 17:19:11,531: DEBUG: utilities.BaseClass: Debug statement executed
+2022-03-01 17:19:11,532: INFO: utilities.BaseClass: Info statement executed
+2022-03-01 17:19:11,533: WARNING: utilities.BaseClass: Warning statement executed
+2022-03-01 17:19:11,533: ERROR: utilities.BaseClass: Error statement executed
+2022-03-01 17:19:11,533: CRITICAL: utilities.BaseClass: Critical statement executed
+2022-03-01 17:25:31,459: DEBUG: test_e2e: Debug statement executed
+2022-03-01 17:25:31,459: INFO: test_e2e: Info statement executed
+2022-03-01 17:25:31,459: WARNING: test_e2e: Warning statement executed
+2022-03-01 17:25:31,459: ERROR: test_e2e: Error statement executed
+2022-03-01 17:25:31,459: CRITICAL: test_e2e: Critical statement executed
