@@ -18,24 +18,24 @@ class HomePage:
 
 
     def shopItems(self):
-        self.driver.find_element(*HomePage.shop).click()
+        self.driver.find_element(self.shop).click()
         checkOutPage = CheckoutPage(self.driver)
         return checkOutPage
 
     def getName(self):
-        return self.driver.find_element(*HomePage.name)
+        return self.driver.find_element(self.name)
 
     def getEmail(self):
-        return self.driver.find_element(*HomePage.email)
+        return self.driver.find_element(self.email)
 
     def getCheckBox(self):
-        return self.driver.find_element(*HomePage.check)
+        return self.driver.find_element(self.check)
 
     def getGender(self):
-        return self.driver.find_element(*HomePage.gender)
+        return self.driver.find_element(self.gender)
 
     def submitForm(self):
-        return self.driver.find_element(*HomePage.submit)
+        return self.driver.find_element(self.submit)
 
     def getSuccessMessage(self):
-        return self.driver.find_element(*HomePage.successMessage)
+        return self.driver.find_element(self.successMessage)

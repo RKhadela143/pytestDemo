@@ -7,15 +7,15 @@ import pytest
 
 from pageObjects.CheckoutPage import CheckoutPage
 from pageObjects.HomePage import HomePage
-from utilities.BaseClass import BaseClass
+from helpers.BaseClass import BaseClass
 
 
 class TestOne(BaseClass):
     def test_e2e(self):
-        log = self.test_getLogger()
+        # log = self.test_getLogger()
         homepage = HomePage(self.driver)
         checkOutPage = homepage.shopItems()
-        log.info("Getting all the card titles")
+        # log.info("Getting all the card titles")
 
 
         cards = checkOutPage.getCardTitles()
